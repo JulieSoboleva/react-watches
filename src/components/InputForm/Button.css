@@ -1,0 +1,15 @@
+.button {
+    padding: 1vmin;
+    align-self: flex-end;
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 15px;
+    font-size: medium;
+    line-height: 34px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    background-color: #fff;
+}

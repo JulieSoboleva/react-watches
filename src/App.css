@@ -1,0 +1,38 @@
+html,
+body {
+  font-family: Open Sans, arial, sans-serif;
+  font-size: 3.125vmin;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto;
+
+  min-height: 100vh;
+
+  line-height: 1.5;
+
+  overflow: hidden;
+}
+
+.watches {
+  max-width: 1920px;
+}
+
+.watchesField {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
